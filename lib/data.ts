@@ -2,6 +2,7 @@ import React from "react";
 import { FaCodepen, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import chrome from "@/public/chrome.jpeg";
 import gpt from "@/public/gpt.jpeg";
+import Portfolio from "@/public/Portfolio.png";
 
 export const sections = [
   {
@@ -72,6 +73,14 @@ export const experience = [
 
 export const projects = [
   {
+    name: "Portfolio Website",
+    link: "https://anandroy.vercel.app/",
+    description:
+      "Portfolio website built with Next.js with Typescript, used Tailwind for styling and resend for email communication",
+    skills: ["React", "Next.js", "Typescript", "Tailwind", "Resend"],
+    image: Portfolio,
+  },
+  {
     name: "Productive Pause",
     link: "https://github.com/AnandRoy01/Productive-Pause",
     description:
@@ -133,6 +142,21 @@ export const tableHeadings = [
 ];
 
 export const fullProjectDetails = [
+  {
+    year: "2023",
+    project: "Portfolio Website",
+    projectLink: "https://anandroy.vercel.app/",
+    madeAt: "Personal",
+    tech: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "tailwind",
+      "resend",
+      "react-email",
+    ],
+    linkText: "Portfolio Website",
+  },
   {
     year: "2023",
     project: "Productive Pause",

@@ -40,11 +40,6 @@ export const social = [
     link: "https://codepen.io/AnandRoy",
     icon: React.createElement(FaCodepen),
   },
-  {
-    name: "instagram",
-    link: "https://www.linkedin.com/in/anandroy01/",
-    icon: React.createElement(FaInstagram),
-  },
 ] as const;
 
 export const experience = [
